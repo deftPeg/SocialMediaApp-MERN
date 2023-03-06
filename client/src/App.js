@@ -9,14 +9,17 @@ import { createTheme } from "@mui/material/styles";
 import { themeSettings } from "./theme";
 
 function App() {
+  // get theme mode from our state
   const mode = useSelector((state) => state.mode);
+  // set up theme mode
   const theme = useMemo(() => createTheme(themeSettings(mode)), [mode]);
 
   return (
     <div className="app">
       <BrowserRouter>
-
+      {/* pass colour theme */}
       <ThemeProvider theme={theme}>
+        {/* basic css reset in mui */}
           <CssBaseline />
 
         <Routes>

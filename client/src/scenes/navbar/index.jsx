@@ -26,27 +26,30 @@ import { useNavigate } from "react-router-dom";
 import FlexBetween from "components/FlexBetween";
 
 const Navbar = () => {
-// toggle to mobile menu
+// determine if toggle to mobile menu
   const [isMobileMenuToggled, setIsMobileMenuToggled] = useState(false);
 
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const user = useSelector((state) => state.user);
 
-// media query within react
+// hook built-in to mui that determines screen size (media query within react)
   const isNonMobileScreens = useMediaQuery("(min-width: 1000px)");
 
-
+// set theme
   const theme = useTheme();
+  // colors used in theme
   const neutralLight = theme.palette.neutral.light;
   const dark = theme.palette.neutral.dark;
   const background = theme.palette.background.default;
   const primaryLight = theme.palette.primary.light;
   const alt = theme.palette.background.alt;
 
+  // convenience variable
   const fullName = `${user.firstName} ${user.lastName}`;
 
   return (
+    // adding flex styling to box component
     <FlexBetween padding="1rem 6%" backgroundColor={alt}>
       <FlexBetween gap="1.75rem">
         <Typography
@@ -62,9 +65,9 @@ const Navbar = () => {
             },
           }}
         >
-          SocialApp
+          deftbook
         </Typography>
-        {/* don't show this on mobile screen */}
+        {/*  search bar and don't show search bar on mobile screen */}
         {isNonMobileScreens && (
           <FlexBetween
             backgroundColor={neutralLight}
@@ -81,8 +84,10 @@ const Navbar = () => {
       </FlexBetween>
 
       {/* DESKTOP NAV */}
+      {/* navigation dedicated to non mobile screens */}
       {isNonMobileScreens ? (
         <FlexBetween gap="2rem">
+          {/* button for light and dark mode */}
           <IconButton onClick={() => dispatch(setMode())}>
             {theme.palette.mode === "dark" ? (
               <DarkMode sx={{ fontSize: "25px" }} />
@@ -93,9 +98,11 @@ const Navbar = () => {
           <Message sx={{ fontSize: "25px" }} />
           <Notifications sx={{ fontSize: "25px" }} />
           <Help sx={{ fontSize: "25px" }} />
+          {/* drop down */}
           <FormControl variant="standard" value={fullName}>
             <Select
               value={fullName}
+              // sx applies css properties
               sx={{
                 backgroundColor: neutralLight,
                 width: "150px",
@@ -114,6 +121,7 @@ const Navbar = () => {
               <MenuItem value={fullName}>
                 <Typography>{fullName}</Typography>
               </MenuItem>
+              {/* logout */}
               <MenuItem onClick={() => dispatch(setLogout())}>Log Out</MenuItem>
             </Select>
           </FormControl>
