@@ -30,12 +30,14 @@ The backend is created with the MERN stack and Mongodb Atlas and Multer. Authent
  <!-- Screenshot -->
 <div> 
 <p>Light Mode Theme</p>
- <img align="left" src="client/public/assets/lightMode.png" alt="JS Todo App Home Screen" height="250"/> </a> 
-
+ <img align="left" src="client/public/assets/lightMode.png" alt="JS Todo App Home Screen" height="600"/> </a> 
+</div>
  <br>
  <br>
+ <br>
+<div>
  <p>Dark Mode Theme</p>
-   <img align="left" src="client/public/assets/darkMode.png" alt="JS Todo App Home Screen" height="250"/> </a> 
+   <img align="left" src="client/public/assets/darkMode.png" alt="JS Todo App Home Screen" height="600"/> </a> 
 
 <br>
 <br>
