@@ -4,9 +4,6 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-
-
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server/index.js",
@@ -14,7 +11,6 @@
     "client": "npm start --prefix client",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --force --prefix client && npm run build --prefix client"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/deftPeg/SocialMediaApp-MERN.git"
@@ -24,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/deftPeg/SocialMediaApp-MERN/issues"
   },
-  "homepage": "https://github.com/deftPeg/SocialMediaApp-MERN#readme"
+  "homepage": "https://github.com/deftPeg/SocialMediaApp-MERN#readme",
+  "dependencies": {
+    "path": "^0.12.7"
+  }
 }
