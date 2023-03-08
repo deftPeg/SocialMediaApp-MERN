@@ -13,11 +13,11 @@ The backend is created with the MERN stack and Mongodb Atlas and Multer.
 <h2 align="left">🛠 Languages and Tools:</h2>
 <br>
 <p>
-<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> 
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="60" height="60"/> 
 </a> 
-<img src='https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png' alt='Redux Logo' width='40'> 
+<img src='https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png' alt='Redux Logo' width='60'> 
 </a>
-<a href="https://mui.com/" rel="noopener" target="_blank"><img width="40" src="client/public/assets/muiLogo.svg" alt="MUI logo"></a>
+<a href="https://mui.com/" rel="noopener" target="_blank"><img width="60" src="client/public/assets/muiLogo.svg" alt="MUI logo"></a>
 </a>
 </p>
 </div>
@@ -29,15 +29,16 @@ The backend is created with the MERN stack and Mongodb Atlas and Multer.
 <br>
  <!-- Screenshot -->
 <div> 
- <img align="right" src="client/public/assets/lightMode.png" alt="JS Todo App Home Screen" height="200"/> </a> 
+ <img align="left" src="client/public/assets/lightMode.png" alt="JS Todo App Home Screen" height="250"/> </a> 
 
- <br>
- <br>
-   <img align="right" src="client/public/assets/darkMode.png" alt="JS Todo App Home Screen" height="200"/> </a> 
+
+   <img align="left" src="client/public/assets/darkMode.png" alt="JS Todo App Home Screen" height="250"/> </a> 
 
 <br>
 <br>
 </div>
+
+
 <br>
 <br>
 
@@ -57,35 +58,3 @@ or alternately, click on the image 👉
 
 <br>
 
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Scripts
-
-
-### `npm install react-icons`
-
-**Note: installs the icons used**
-
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
