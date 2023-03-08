@@ -25,20 +25,9 @@ const LoginPage = () => {
         backgroundColor={theme.palette.background.alt}
       >
         <Typography fontWeight="500" variant="h5" sx={{ mb: "1.5rem" }}>
-         Welcome to deftbook, the Social Media App for Socio-addicts!
-        </Typography>
-      <Box
-        width={isNonMobileScreens ? "50%" : "93%"}
-        p="2rem"
-        m="2rem auto"
-        borderRadius="1.5rem"
-        backgroundColor={theme.palette.background.alt}
-      >
-        <Typography fontWeight="500" variant="h5" sx={{ mb: "1.5rem" }}>
-          Welcome to deftbook, the Social Media for Socio-addicts!
+          Welcome to deftbook, the Social Media Application for Socio-addicts!
         </Typography>
         <Form />
-      </Box>
       </Box>
     </Box>
   );
