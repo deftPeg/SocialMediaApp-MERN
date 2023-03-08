@@ -1,0 +1,23 @@
+{
+  "name": "socialmediaapp-mern",
+  "version": "1.0.0",
+  "description": "fullstack social media app created with mern redux and mui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch server --exec node server/index.js",
+    "server": "nodemon server/index.js",
+    "client": "npm start --prefix client",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deftPeg/SocialMediaApp-MERN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deftPeg/SocialMediaApp-MERN/issues"
+  },
+  "homepage": "https://github.com/deftPeg/SocialMediaApp-MERN#readme"
+}
