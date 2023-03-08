@@ -1,8 +1,8 @@
 <!-- Title Description -->
 # Social Media App 
 MERN full stack Social Media App.
-The front end is created with react and redux and styling with material ui.
-The backend is created with the MERN stack and Mongodb Atlas and Multer.
+The front end is created with react and redux and styling with material ui. The UI offers both dark and light mode.
+The backend is created with the MERN stack and Mongodb Atlas and Multer. Authentication is handled by JWT.
 
 <hr>
 
@@ -29,9 +29,12 @@ The backend is created with the MERN stack and Mongodb Atlas and Multer.
 <br>
  <!-- Screenshot -->
 <div> 
+<p>Light Mode Theme</p>
  <img align="left" src="client/public/assets/lightMode.png" alt="JS Todo App Home Screen" height="250"/> </a> 
 
-
+ <br>
+ <br>
+ <p>Dark Mode Theme</p>
    <img align="left" src="client/public/assets/darkMode.png" alt="JS Todo App Home Screen" height="250"/> </a> 
 
 <br>
