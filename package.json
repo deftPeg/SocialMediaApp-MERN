@@ -4,13 +4,19 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+
+  "engines": {
+    "node": "8.5.5"
+  },
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --watch server --exec node server/index.js",
+    "start": "nodemon server/index.js",
     "server": "nodemon server/index.js",
     "client": "npm start --prefix client",
     "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/deftPeg/SocialMediaApp-MERN.git"
