@@ -15,6 +15,7 @@ import { register } from "./controllers/auth.js";
 import { createPost } from "./controllers/posts.js";
 import { verifyToken } from "./middleware/auth.js";
 
+
 // required in order to insert first time data for testing purposes
 import User from "./models/User.js";
 import Post from "./models/Post.js";
@@ -33,7 +34,9 @@ app.use(morgan("common"));
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
-app.use("/assets", express.static(path.join(__dirname, "public/assets")));
+app.use(express.static(path.join(__dirname, "client", "build")));
+
+// app.use("/assets", express.static(path.join(__dirname, "public/assets")));
 
 // define an object with the connection parameters
 // useful when connection to MongoDB Atlas server
@@ -77,5 +80,10 @@ mongoose
     // Post.insertMany(posts);
   })
   .catch((error) => console.log(`${error} did not connect`));
+
+  // added this for deployment (catchcall)
+  app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+});
 
   app.listen(PORT, () => console.log(`Server is listening on port: ${PORT}`))
