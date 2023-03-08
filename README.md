@@ -28,13 +28,16 @@ The backend is created with the MERN stack and Mongodb Atlas and Multer.
 
 <br>
  <!-- Screenshot -->
-
+<div> 
  <img align="right" src="client/public/assets/lightMode.png" alt="JS Todo App Home Screen" height="200"/> </a> 
 
  <br>
  <br>
    <img align="right" src="client/public/assets/darkMode.png" alt="JS Todo App Home Screen" height="200"/> </a> 
 
+<br>
+<br>
+</div>
 <br>
 <br>
 
