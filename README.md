@@ -74,9 +74,9 @@ The backend is created with the MERN stack and Mongodb Atlas and Multer. Authent
 <br>
 
 *****
-<h3>Front-end runs on local host port 3000</h3>
+<h4>Front-end runs on local host port 3000</h4>
 <hr>
-<h3>Back-end runs on local host port 3001</h3>
+<h4>Back-end runs on local host port 3001</h4>
 
 
 
