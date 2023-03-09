@@ -24,48 +24,67 @@ The backend is created with the MERN stack and Mongodb Atlas and Multer. Authent
 
 <hr>
 
-
-
 <br>
- <!-- Screenshot -->
-<div> 
-<p>Light Mode Theme
 <br>
- <img src="client/public/assets/lightMode.png" alt="JS Todo App Home Screen" height="300"/>
-  <br>
- <br>
- </p>
-</div>
 
- <br>
- 
-
-<div>
- <p>Dark Mode Theme
- <br>
-   <img src="client/public/assets/darkMode.png" alt="JS Todo App Home Screen" height="300"/> 
-</p>
-<br>
+<!-- DEPENDENCIES FRONT-END -->
+<div name = "Technologies"> 
+<h2 align="left">DEPENDENCIES: Front-End</h2>
+• npx-create-react-app<br>
+• @emotion/react<br>
+• @emotion/styled<br>
+• @mui/icons-material<br>
+• @mui/material<br>
+• @reduxjs/toolkit<br>
+• formik<br>
+• react-dropzone<br>
+• react-redux<br>
+• react-router-dom<br>
+• react-scripts<br>
+• redux-persist<br>
+• yup
 <br>
 </div>
 
+<hr>
 
 <br>
 <br>
 
-   <!-- Online link -->
-   <!-- <div name = "Online presence"> 
-<h2 align="left">👀 View online:</h2>
+<!-- DEPENDENCIES BACK-END -->
+<div name = "Technologies"> 
+<h2 align="left">DEPENDENCIES: Back-End</h2>
+• bcrypt<br>
+• body-parser<br>
+• cors<br>
+• dotenv<br>
+• express<br>
+• gridfs-stream<br>
+• helmet<br>
+• jsonwebtoken<br>
+• mongoose<br>
+• morgan<br>
+• multer<br>
+• multer-gridfs-storage<br>
+• nodemon<br>
+• path
 <br>
-<a href="https://deftpegreacttodofirst.netlify.app/" target="_blank" rel="noreferrer">
-Take me to the website, </a>
-or alternately, click on the image 👉
-
-
-</div>  -->
-
-
-
+</div>
 
 <br>
+
+*****
+<h3>Front-end runs on local host port 3000</h3>
+<hr>
+<h3>Back-end runs on local host port 3001</h3>
+
+
+
+
+
+
+
+
+
+
 
