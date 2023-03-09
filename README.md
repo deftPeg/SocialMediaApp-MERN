@@ -49,7 +49,7 @@ The backend is created with the MERN stack and Mongodb Atlas and Multer. Authent
 <hr>
 
 <br>
-<br>
+
 
 <!-- DEPENDENCIES BACK-END -->
 <div name = "Technologies"> 
