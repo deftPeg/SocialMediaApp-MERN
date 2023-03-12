@@ -4,7 +4,7 @@ MERN full stack Social Media App.
 The front end is created with react and redux and styling with material ui. The UI offers both dark and light mode.
 The backend is created with the MERN stack and Mongodb Atlas and Multer. Authentication is handled by JWT.
 
-****** THERE ARE STILL SOME BUGS THAT NEED TO BE FIXED REGARDING CLOUDINARY ****** 
+****** THERE ARE STILL SOME BUGS THAT NEED TO BE FIXED REGARDING MULTER ****** 
 
 <hr>
 
